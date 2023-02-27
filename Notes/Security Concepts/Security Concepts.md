@@ -6,19 +6,19 @@
 - Confidentiality - Permitting authorized access to information, while at the same time protecting information from improper disclosure
 #### Confidentiality Concerns
 1. Snooping
-	- snooping gathering information that is left out in the open.
+	- Gathering information that is left out in the open online/offline.
 	- "Clean desk policies" protect against snooping.
 2. Dumpster Diving
-	- Dumpster diving is to dump data anywere or dustbin.
+	- Going through a person/organization's trash to obtain information.
 	- "Shedding" protects against dumpster diving.
 3. Eavesdropping
-	- listing sensitive information
+	- Listing sensitive information conversation.
 	- "Rules about sensitive conversations" prevent eavesdropping
 4. Wiretapping
-	- Electronic evaesdropping - listing through wire(internet)
+	- Electronic eavesdropping - listing through wire(internet)
 	- "Encryption" protects against Wiretapping
 5. Social Engineering
-	- The attacker uses psychological tricks to persuade an employee to give then sensitive information or access to internal systems.
+	- Using psychological manipulation to convince an employee to give them sensitive information or access to internal systems.
 	- Best defence is to "Educating users"
 
 
