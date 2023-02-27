@@ -54,8 +54,8 @@ This Official (ISC)² Certified in Cybersecurity (CC) self-paced course provides
   > https://github.com/cyberfascinate/ISC2-CC-Study-Material/tree/main/Important%20PDFs
 2. **Notes**
   > https://github.com/cyberfascinate/ISC2-CC-Study-Material/tree/main/Notes
-3. **Videos**
-  >
+3. **Videos** </br>
+  > [(ISC)2 Certified in Cybersecurity (CC) Cert Prep](https://www.linkedin.com/learning/isc-2-certified-in-cybersecurity-cc-cert-prep)
 4. **Flash Card**
   > https://github.com/cyberfascinate/ISC2-CC-Study-Material/blob/main/Flash%20Card.md
 5. **Quiz**
