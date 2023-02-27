@@ -2,7 +2,7 @@
 
 ## CIA Triad
 
-## Confidentiality
+## Confidentiality [detailed](https://github.com/LogicBypass/ISC2-CC-Study-Material/blob/main/Notes/Security%20Concepts/Security%20Principles.md#confidentiality)
 - Confidentiality - Permitting authorized access to information, while at the same time protecting information from improper disclosure
 #### Confidentiality Concerns
 1. Snooping
