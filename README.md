@@ -1,5 +1,7 @@
 # (ISC)2  Certified in Cybersecurity 
-### Study Material from @cyberfascinate
+### Study Material from @cyberfascinate, Modifications:
+  - Fixed links to flashcards
+  - Added LinkedIn Cert Prep video 
 
 ## Introduction
 
@@ -9,7 +11,8 @@ In this entry-level cybersecurity certification, the domains included are: Secur
 
 This Official (ISC)² Certified in Cybersecurity (CC) self-paced course provides a comprehensive review of information systems security concepts, industry best practices and terminology. The goal of this content is to provide students with the core knowledge necessary to be a successful entry-level cybersecurity practitioner in today’s world and review concepts outlined in the Official (ISC)² Certified in Cybersecurity (CC) Exam Outline.
 
-## Course objectives
+<details>
+  <summary><h3>Course objectives</h3></summary>
 
 1. Discuss the foundational concepts of cybersecurity principles. 
 2. Recognize foundational security concepts of information assurance. 
@@ -47,6 +50,8 @@ This Official (ISC)² Certified in Cybersecurity (CC) self-paced course provides
 34. Explain the application of common security policies. 
 35. Discuss the importance of security awareness training. 
 36. Practice the terminology and review concepts of network operations.
+</details>
+
 
 ## Files
 
