@@ -1,10 +1,10 @@
 # Security Concepts
-CIA Traid are three main goals
+
+## CIA Triad
 
 ## Confidentiality
-- Confidentiality protects information from unauthorized disclosure.
-
-#### Confidentiality_Concerns
+- Confidentiality - Permitting authorized access to information, while at the same time protecting information from improper disclosure
+#### Confidentiality Concerns
 1. Snooping
 	- snooping gathering information that is left out in the open.
 	- "Clean desk policies" protect against snooping.
