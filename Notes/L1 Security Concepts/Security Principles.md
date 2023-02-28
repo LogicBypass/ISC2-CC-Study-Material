@@ -1,116 +1,132 @@
 # L1: Security Principles
 
-## Module 1 Understand the Security Concepts of Information Assurance
+## **Module 1 Understand the Security Concepts of Information Assurance**
 
-Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6
+Domain D1.1.1, D1.1.2, D1.1.3, D1.1.4, D1.1.5, D1.1.6 ****
 
-### Confidentiality
+### **Confidentiality**
+---
+> **Permitting authorized access to information, while at the same time protecting information from improper disclosure.**
+> 
 
-It relates to permitting authorized access to information, while at the same time protecting information from improper disclosure. Difficulties to achieve confidentiality are related to: **many users are guests or customers**, and it is not clear if the access comes from a compromised machine or vulnerable mobile application. To avoid those difficulties, security professionals must regulate access, permitting access to authorized individuals, for that protecting the data that needs protection. 
+**Confidentiality** is a difficult balance to achieve when **many system users are guests or customers**, and it is not known if they are accessing the system from a compromised machine or vulnerable mobile application. So, the security professional’s obligation is to **regulate access** —protect the data that needs protection and permit access to authorized individuals. 
 
-Data that needs protections is also known **as PII or PHI**. 
-**PII** stands for Personally Identifiable Information and it is related to the area of confidentiality and it means any data that could be used to identify an individual. 
-**PHI** stands for Protected Health Information and it comprehends information about one's health status, and classified or sensitive information, which includes trade secrets, research, business plans and intellectual property. 
+**Concepts related to confidentiality :**
 
-Related to confidentiality is **the concept sensitivity a measure of the importance assigned to information by its owner**, or the purpose of denoting its need for protection. **Sensitive information** is information that if improperly disclosed (confidentiality) or modified (integrity) would harm an organization or individual. In many cases, sensitivity is related to the harm to external stakeholders; that is, people or organizations that may not be a part of the organization that processes or uses the information.
+**Sensitivity is** a measure of the importance assigned to information by its owner, or the purpose of denoting its need for protection. 
 
-Threat related to confidentiality are:
+**Sensitive information** is information that if improperly disclosed (*confidentiality*) or modified (*integrity*) would harm an organization or individual. In many cases, sensitivity is related to the harm to external stakeholders, that is people or organizations that may not be a part of the organization that processes or uses the information.
 
-1. Snooping involves gathering information that is left out in the open. Clean desk policies protect against snooping.
-2. Dumpster diving also looking for sensitive materials, but in the dumpster, a paper shredding protects against it.
-3. Eavesdropping occurs when someone secretly listen to a conversation, and it can be prevent with rules about sensitive conversations  
-4. Wiretapping is the electronic version of eavesdropping, the best way against that is using encryption to protect the communication. 
-5. Social Engineering, the best defense is educate users to protect them against social engineering.
+Data that needs protections:
 
-### Integrity
+- **Personally Identifiable Information (PII)** is a term related to the area of confidentiality. It pertains to any data about an individual that could be used to trace or identify them.
+- **Protected Health Information (PHI)** stands for information about one's health status, health provisioning, or healthcare payment.
+- **Classified** or **Sensitive information** includes trade secrets, research, business plans, and intellectual property.
 
-It is the property of information whereby it is recorded, used and maintained in a way that ensures its completeness, accuracy, internal consistency and usefulness for a stated purpose, which can be applied **to information or data**, **system and process for business operations**, **organizations**, **people and their actions**. Furthermore, restrict to data integrity, it is an assurance that  data has not been altered in an unauthorized manner, covering data **in storage**, during **processing**, and while **in transit**. 
+**Threats related to confidentiality are:**
 
-**Consistency** is another concept related to integrity and requires that all instances of the data be identical in form, content and meaning. When related to system integrity, it refers to the maintenance of a known good configuration and expected operational function as the system processes the information. Ensuring integrity begins with an awareness of state, which is the current condition of the system. Specifically, this awareness concerns the ability to document and understand the state of data or a system at a certain point, **creating a baseline**. A baseline, which means a documented, lowest level of security configuration allowed by a standard or organization, can refer to the current state of the information—whether it is protected. 
+1. **Snooping** involves gathering information that is left out in the open.  Clean desk policies protect against snooping.
+2. **Dumpster diving** also looks for sensitive materials in dumpsters, a paper “Shredding” protects against it.
+3. **Eavesdropping** occurs when someone secretly listens to a conversation,  It can be prevented with rules about sensitive conversations.
+4. **Wiretapping** is the electronic version of eavesdropping The best way against that issuing encryption to protect the communication.
+5. **Social Engineering** the best defense is to educate users to protect them against social engineering.
 
-To preserve that state, the information must always continue to be protected through a transaction. Going forward from that baseline, the integrity of the data or the system can always be ascertained by comparing the baseline with the current state. If the two match, then the integrity of the data or the system is intact; if the two do not match, then the integrity of the data or the system has been compromised. Integrity is a primary factor in the reliability of information and systems. The need to safeguard information and system integrity may be dictated by laws and regulations. Often, it is dictated by the needs of the organization to access and use reliable, accurate information.
+### **Integrity**
+---
+> **It is the property of information whereby it is recorded, used, and maintained in a way that ensures its completeness, accuracy, internal consistency, and usefulness for a stated purpose.**
+> 
 
-1. Unauthorized modification attacks make changes without permission. The best way to protect against that is the least privilege principle.
-2. Impersonation attacks pretend to be someone else. User education protects against impersonation attack.
-3. Man-In-The-Middle (MITM) attacks place the attacker in the middle of a communication session, monitoring everything that's occurring.  
-4. Replay attacks eavesdrop on logins and reuse the captured credentials.
+**The concept of integrity applies to:**
 
-To both MiTM and Replay attacks the best approach is encryption.
+- Information or Data
+- Systems and processes for business operations
+- Organizations
+- People and their actions
 
-### Availability
+Furthermore, restrict to **Data integrity**, it is an assurance that data has not been altered in an unauthorized manner, covering: data in storage, during processing, and while in transit.
 
-It means that systems and data are accessible at the time users need them. It can be defined as timely and reliable access to information and the ability to use it, and for authorized users, timely and reliable access to data and information services. 
-The core concept of availability is that data is accessible **to authorized users when and where it is needed and in the form and format required**. This does not mean that data or systems are available 100% of the time. Instead, the systems and data meet the requirements of the business for timely and reliable access. 
-**Some systems and data are far more critical than others**, so the security professional **must ensure that the appropriate levels of availability are provided**. This requires consultation with the involved business to ensure that critical systems are identified and available. 
-Availability is often associated with the term **criticality**, which means a measure of the degree to which an organization depends on the information or information system for the success of a mission or of a business function (NIST SP 800-60), because it represents the importance an organization gives to data or an information system in performing its operations or achieving its mission
+**Consistency** is another concept related to integrity and requires that all instances of the data be identical in form, content, and meaning.
 
-1. Denial of Service can be mitigated using firewalls to block unauthorized connections
-2. Power outages can be mitigated using redundant power and generators
-3. Hardware failures can be mitigated using redundant components
-4. Destruction can be mitigated using backups
-5. Service outages
+**System integrity**  refers to the maintenance of a known good configuration and expected operational function as the system processes the information. Ensuring integrity begins with an awareness of the state, which is the current condition of the system. Specifically, this awareness concerns the ability to document and understand the state of data or a system at a certain point, creating a **baseline**. 
 
-### Three steps to gain access, known as triple A, which means Authentication, Authorization, Accounting
+**A baseline**, which means a documented, lowest level of security configuration allowed by a standard or organization, can refer to the current state of the information — whether it is protected. Going forward from that baseline, the integrity of the data or the system can always be ascertained by comparing the baseline with the current state. If the two matches, then the integrity of the data or the system is intact; if the two do not match, then the integrity of the data or the system has been compromised. 
 
-#### Identification
+Integrity is a primary factor in the reliability of information and systems. The need to safeguard information and system integrity may be dictated by laws and regulations. Often, it is dictated by the needs of the organization to access and use reliable, accurate information.
 
-Consist of making a claim of identity
+**Threats related to Integrity are:**
 
-#### Authentication
+1. **Unauthorized modification**. The best way to protect against that is the least privilege principle.
+2. **Impersonation** attacks. User education protects against impersonation attacks.
+3. **Man-In-The-Middle** (MITM) attacks.
+4. **Replay** attacks reuse the captured credentials.
 
-When users have stated their identity, it is necessary **to validate that they are the rightful owners of that identity**. This process of verifying or proving the user’s identification is known as authentication, which means in another terms access control process validating that the identity being claimed by a user or entity is known to the system, by comparing one (single-factor or SFA) or more (multi-factor authentication or MFA) factors of authentication. Simply put, authentication is a process to prove the identity of the requestor.
+**Encryption** is the best approach to both MiTM and Replay attacks.
 
-There are three common methods of authentication:
+**Access control** and **rigorous authentication** can help prevent authorized users from making unauthorized changes.
 
-* Something you know: Passwords or paraphrases
-* Something you have: Tokens (NISTIR 7711), memory cards, smart cards
-* Something you are: Biometrics , measurable characteristics
+**Hash verification** and **digital signatures** can help ensure that transactions are authentic and that files have not been modified or corrupted.
 
-#### Methods of Authentication
+### **Availability**
+---
+> **Availability can be defined as timely and reliable access for authorized users to data and information services and the ability to use them.**
+> 
 
-There are two types of authentication. Using only one of the methods of authentication stated previously is **known as single-factor authentication (SFA)**. Granting users access only after successfully demonstrating or displaying two or more of these methods is **known as multi-factor authentication (MFA)**. 
+It means that systems and data are accessible at the time users need them.
 
- **Common best practice is to implement at least two of the three common techniques for authentication**: 
+The core concept of availability is that **data is accessible to authorized users when and where it is needed and in the form and format required**. This does not mean that data or systems are available 100% of the time. Instead, the systems and data meet the requirements of the business for a timely and reliable access.
 
-* Knowledge-based 
-* Token-based 
-* Characteristic-based  
+**Some systems and data are far more critical than others**, so the security professional must ensure that the **appropriate levels of availability are provided**. This requires consultation with the involved business to ensure that critical systems are **identified** and **available**.
 
-Knowledge-based authentication uses a passphrase or secret code to differentiate between an authorized and unauthorized user. If you have selected a personal identification number (PIN), created a password or some other secret value that only you know, then you have experienced knowledge-based authentication. The problem with using this type of authentication alone is that it is often vulnerable to a variety of attacks. For example, the help desk might receive a call to reset a user’s password. The challenge is ensuring that the password is reset only for the correct user and not someone else pretending to be that user. For better security, a second or third form of authentication that is based on a token or characteristic would be required prior to resetting the password. The combined use of a user ID and a password consists of two things that are known, and because it does not meet the requirement of using two or more of the authentication methods stated, it is not considered MFA.
+Availability is often associated with the term **criticality**, which means a measure of the degree to which an organization depends on the information or information system for the success of a mission or of a business function (NIST SP 800-60), because it represents the importance an organization gives to data or an information system in performing its operations or achieving its mission
 
-#### Password
+When a system is unavailable, it often results in damage to an organization's reputation and loss of finances
 
-* Password length requirements set a minimum number of chars
-* Password complexity requirements describe the types of characters that must be included
-* Password expiration requirements force password changes. Nowadays, that requirement isn't used, companies change to an approach where force password change is required when there is any evidence that the password has been compromised.
-* Password history requirements prevent password reuse.
-* Provide a way to change the password quickly and easily.
-* Encourage users to not reuse the same password across multiple sites
-* Password managers facilitate the use of strong, unique passwords
+**Threats related to availability are:**
 
-#### Authorization
+1. **Denial of Service** can be mitigated using firewalls to block unauthorized connections 
+2. **Power outages** can be mitigated using redundant power and generators
+3. **Hardware failures** can be mitigated using redundant components
+4. **Destruction** can be mitigated using backups
+5. **Service outages** Implementing well-versed redundant security protocols
 
-Ensuring that an action is allowed.
+### **Authentication, Identification, Authorization**
+---
+**Three steps to gain access** consists of an **Access Control processes** validating the identity of a **user** or **entity** before granting access to a system or resource
 
-#### Accounting
+- **Identification** is the process of presenting an identity or claiming to be a specific user, without providing any evidence to support the claim. (Username, Email)
+- **Authentication** is the process of verifying the claimed identity by providing evidence.
+- **Authorization -** is the process of granting or denying access to a resource or system based on a user's identity and permissions.
 
-Its maintains logs of activity
+When users declare their identity, it is vital to confirm that they are the legitimate holders of that identity. Authentication refers to the process of validating or proving the user's identity. Simply authentication is the process of proving the identity of the requester.
+
+Access control systems not only perform **authentication** and **authorization** but also offer "**Accounting**" functionality to monitor and record user activity. This feature allows administrators to track user activity on the system, and access logs can be used to reconstruct user behavior.
+
+**Methods and types of Authentication:**
+
+Three common **methods of authentication**:
+
+1. Something you know “*Knowledge-based*”: Password, Passphrase, ID
+2. Something you have **************“Token-based”**************: Token, Memory cards, Smart Cards
+3. Something you are ****************“Characteristic-based”****************: Biometrics, Some measurable characteristics 
+
+There are two **types** of authentication.
+
+- **Single-factor authentication (SFA) -** Using only one of the methods of authentication stated previously.
+- **Multi-factor authentication(MFA) -** Granting users access only after successfully demonstrating or displaying two or more of these methods stated previously.
+
+    A common best practice is to implement at least two of the three common techniques for authentication:
+
+Knowledge-based authentication uses a passphrase or secret code to differentiate between an authorized and unauthorized user. If you have selected a personal identification number (PIN) and created a password or some other secret value that only you know, then you have experienced knowledge-based authentication. The problem with using this type of authentication alone is that it is often vulnerable to a variety of attacks. For example, the help desk might receive a call to reset a user’s password. The challenge is ensuring that the password is reset only for the correct user and not someone else pretending to be that user. For better security, a second or third form of authentication that is based on a token or characteristic would be required prior to resetting the password. The combined use of a user ID and a password consists of two things that are known, and because it does not meet the requirement of using two or more of the authentication methods stated, it is not considered MFA.
 
 ### Non-repudiation
+---
+**Non-repudiation** is a security property that prevents an individual or entity from denying that they have performed a particular action or transaction. Also, Assurance that the sender of information is provided with proof of delivery and the recipient is provided with proof of the sender's identity, so neither can later deny having processed the information.
 
-Non-repudiation is a legal term and is defined as the protection against an individual falsely denying having performed a particular action. It provides the capability to determine whether a given individual took a particular action, such as created information, approved information or sent or received a message.
+It provides the capability to determine whether a given individual took a particular action, such as created information, approved information, or sent or received a communication.
 
-In today’s world of e-commerce and electronic transactions, **there are opportunities for the impersonation of others or denial of an action, such as making a purchase online and later denying it**. It is important that all participants trust online transactions. **Non-repudiation methodologies ensure that people are held responsible for transactions they conducted**.
+In today’s world of e-commerce and electronic transactions, there are opportunities for the impersonation of others or denial of action, such as making a purchase online and later denying it. It is important that all participants trust online transactions.
 
-### Base Concepts
-
-1. Authorization: the right or a permission that is granted to a system entity to access a system resource
-2. Integrity: the property that data has not been altered in an unauthorized manner
-3. Confidentiality: the characteristic of data or information when it is not made available or disclosed to unauthorized persons or process 
-4. Privacy: the right of an individual to control the distribution of information about themselves
-5. Availability: Ensuring timely and reliable access to and use of information by authorized users
-6. Non-repudiation: The inability to deny taking an action, such as sending an email message
-7. Authentication: Access control process that compares one or more factors of identification to validate that the identity claimed by a user or entity is known to the system
+Non-repudiation methodologies ensure that people are held responsible for transactions they conducted.
 
 ### Privacy
 
