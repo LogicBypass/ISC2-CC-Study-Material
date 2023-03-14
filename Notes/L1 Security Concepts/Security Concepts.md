@@ -137,19 +137,19 @@ This feature allows administrators to track user activity on the system, and acc
 
 **Methods** of authentication:
 
-1. Something you know “*Knowledge-based*”: Password, Passphrase, ID
-2. Something you have **************“Token-based”**************: Token, Memory cards, Smart Cards
-3. Something you are ****************“Characteristic-based”****************: Biometrics, Some measurable characteristics 
+1. Something you **know** __“Knowledge-based”__: Password, Passphrase, ID
+2. Something you **have** __"Token-based"__: Token, Memory cards, Smart Cards
+3. Something you **are** __“Characteristic-based”__: Biometrics, Some measurable characteristics 
 - **Password security requirements:**
-    - **Password length requirements** set a minimum number of characters. ****
+    - **Password length requirements** set a minimum number of characters. 
     - **Password complexity requirements** describe the types of characters that must be included.
     - **Password expiration requirements** force password changes.
     - **Password history requirements** prevent password reuse.
 
 **Types** of authentication:
 
-- Single-Factor Authentication (SFA) - Using only one of the methods of authentication stated previously.
-- Multi-Factor Authentication (MFA) - Using a combination of two or more methods of authentication stated previously
+- **Single-Factor Authentication (SFA)** - Using only one of the methods of authentication stated previously.
+- **Multi-Factor Authentication (MFA)** - Using a combination of two or more methods of authentication stated previously
 - **Single Sign-On (SSO):**
     
     In a single sign-on (SSO) approach, users only need to log in once to the first SSO-enabled system they encounter. This authenticated session is then shared across other systems until it expires. If the session expires at the end of the business day, users will only need to log in once a day to access all systems, making the sign-on process more convenient and efficient.
